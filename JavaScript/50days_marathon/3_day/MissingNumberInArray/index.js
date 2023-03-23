@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+//LINK:https://leetcode.com/problems/missing-number/
 var missingNumber = function (nums) {
   /*
     //FIRST SOLUTION
