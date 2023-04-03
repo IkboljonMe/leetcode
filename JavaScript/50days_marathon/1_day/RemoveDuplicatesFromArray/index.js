@@ -12,3 +12,4 @@ var removeDuplicates = function (nums) {
   nums.length = deduplicatedArray.length;
   return nums.length;
 };
+module.exports = removeDuplicates;
