@@ -38,3 +38,4 @@ var findMedianSortedArrays = function (nums1, nums2) {
     } else high = partitionX - 1;
   }
 };
+module.exports = findMedianSortedArrays;
