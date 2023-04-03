@@ -1,0 +1,29 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Solutions of leetcode promlems",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IkboljonMe/leetcode.git"
+  },
+  "keywords": [
+    "problems",
+    "javascript",
+    "leeetcode",
+    "algortihms",
+    "data-structures"
+  ],
+  "author": "Ikboljon Abdurasulov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IkboljonMe/leetcode/issues"
+  },
+  "homepage": "https://github.com/IkboljonMe/leetcode#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
