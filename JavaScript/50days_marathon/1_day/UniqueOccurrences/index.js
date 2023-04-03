@@ -26,3 +26,4 @@ var uniqueOccurrences = function (arr) {
     return false;
   }
 };
+module.exports = uniqueOccurrences;
