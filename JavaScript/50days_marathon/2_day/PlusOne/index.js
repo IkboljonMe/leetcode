@@ -16,3 +16,4 @@ var plusOne = function (digits) {
   }
   return digits;
 };
+module.exports = plusOne;
