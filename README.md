@@ -1,4 +1,4 @@
-# MY [LEETCODE](https://leetcode.com/ikboljonme/) SOLUTION
+# MY [LEETCODE](https://leetcode.com/ikboljonme/) SOLUTIONS
 
 This repo contains my solutions to various LeetCode problems, along with explanations and Jest test cases.
 
