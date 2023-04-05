@@ -30,15 +30,15 @@ If you want to run tests for a specific problem, you can specify the file path o
 npm test -- problems/foo.test.js
 ```
 
-## REFERENCES
+## Links
 
 - [Javascript](https://github.com/IkboljonMe/leetcode/tree/main/JavaScript)
   - [50_day_Marathon](https://github.com/IkboljonMe/leetcode/tree/main/JavaScript/50days_marathon)
 
-## LICENCE
+## License
 
 This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/IkboljonMe/leetcode/blob/main/LICENSE.txt) file for details.
 
-## CONCLUSION
+## Conclusion
 
 I hope that these solutions and explanations will be helpful to you in your own algorithmic problem-solving journey. Please feel free to leave any feedback or suggestions for improvement.
