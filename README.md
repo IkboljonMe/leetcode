@@ -37,7 +37,7 @@ npm test -- problems/foo.test.js
 
 ## LICENCE
 
-This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/IkboljonMe/leetcode/blob/main/LICENCE.txt) file for details.
+This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/IkboljonMe/leetcode/blob/main/LICENSE.txt) file for details.
 
 ## CONCLUSION
 
