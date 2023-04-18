@@ -1,2 +1,6 @@
+#JAVASCRIPT
 **/node_modules
+
+##PYTHON:
 **/__pycache__/
+.pytest_cache
