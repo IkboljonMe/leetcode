@@ -1,30 +1,17 @@
+import pytest
 from shuffle import Solution
-# Test Case 1
-nums = [1,2,3,4,5,6]
-n = 3
-s = Solution()
-assert s.shuffle(nums, n) == [1, 4, 2, 5, 3, 6]
 
-# Test Case 2
-nums = [7,8,9,10,11,12]
-n = 3
-s = Solution()
-assert s.shuffle(nums, n) == [7, 10, 8, 11, 9, 12]
+@pytest.fixture
+def inputs():
+    return [
+        ([1,2,3,4,5,6], 3, [1, 4, 2, 5, 3, 6]),
+        ([7,8,9,10,11,12], 3, [7, 10, 8, 11, 9, 12]),
+        ([1,2,3,4], 2, [1, 3, 2, 4]),
+        ([5,6], 1, [5, 6]),
+        ([], 0, [])
+    ]
 
-# Test Case 3
-nums = [1,2,3,4]
-n = 2
-s = Solution()
-assert s.shuffle(nums, n) == [1, 3, 2, 4]
-
-# Test Case 4
-nums = [5,6]
-n = 1
-s = Solution()
-assert s.shuffle(nums, n) == [5, 6]
-
-# Test Case 5
-nums = []
-n = 0
-s = Solution()
-assert s.shuffle(nums, n) == []
+def test_shuffle(inputs):
+    s = Solution()
+    for nums, n, expected in inputs:
+        assert s.shuffle(nums, n) == expected
