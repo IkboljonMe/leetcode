@@ -1,7 +1,7 @@
 {
   "name": "leetcode",
   "version": "1.0.0",
-  "description": "Solutions of leetcode promlems",
+  "description": "My solutions to LeetCode problems",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -13,8 +13,8 @@
   "keywords": [
     "problems",
     "javascript",
-    "leeetcode",
-    "algortihms",
+    "leetcode",
+    "algorithms",
     "data-structures"
   ],
   "author": "Ikboljon Abdurasulov",

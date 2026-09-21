@@ -1,4 +1,4 @@
-const maxSubArray = require("../inex");
+const maxSubArray = require("../index");
 
 describe("maxSubArray", () => {
   it("returns the maximum subarray sum of an array with positive and negative numbers", () => {
